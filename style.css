@@ -1,0 +1,175 @@
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: #555;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, auto));
+    grid-gap: 90px;
+    margin: 20px 65px;
+    max-width: 1140px;
+    padding: 20px;
+    
+}
+
+
+.product{
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #e0e0e0;
+    border-radius: 33px;
+    width: 380px;
+
+}
+
+.product img{
+    width: 366px;
+    height: 232px;
+    display: block;
+    margin: -22px 0px;
+}
+.product .title{
+   
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.product .discription{
+    padding:  0 20px 20px 20px;
+    line-height: 22px;
+    font-size: 12px;
+
+}
+
+.product .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    color: #9b9b9b;
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product .category{
+    font-size: 32px;
+    margin: 0px 32px;
+    font-weight: 700;
+}
+
+.category-main{
+    text-align: center;
+    height: 80px;
+}
+.image-container{
+    height: 232px;
+    width: 327px;
+    background: aqua;
+}
+.title-main{
+    width: 351px;
+    height: 55px;
+  
+}
+
+.description-main .description{
+    color: black;
+    
+    font-weight: 900;
+   
+    white-space: nowrap; 
+    width: 360px; 
+    height: 37px;
+    overflow: hidden;
+    text-overflow: "ellipsis"; 
+    border: 1px solid #000000;
+  
+}
+
+.price-main{
+    width: 351px;
+    height: 73px;
+    background-color: transparent;
+    border-radius: 2 0 12px 11px;
+    margin: -1px -1px;
+    display: flex;
+    padding-left: 0px;
+}
+.price-main2{
+    width: 176px;
+    height: 64px;
+    background-color:transparent;
+    margin-right: 53px;
+}
+.price-main p{
+    text-align: left;
+}
+ button{
+    background: limegreen;
+    width: 113px;
+    height: 41px;
+    font-size: 18px;
+    margin: 25px 0px;
+    margin-left: 13px;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #b1b1b1;
+    overflow: hidden;
+}
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fde16d;
+}
+.empty-stars:before, .full-stars:before {
+    content:"\2605\2605\2605\2605\2605";
+    font-size: 25px;
+}
+
+
+
+
+#hello{
+    color: red;
+}
+
+
+
+
+
+
+
